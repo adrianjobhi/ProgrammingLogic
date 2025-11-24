@@ -3,7 +3,6 @@ const txtNum2 = document.getElementById("num2");
 const txtNum3 = document.getElementById("num3");
 const alertResultado = document.getElementById("resultado");
 
-// Reutilizamos la idea de validarCantidad:
 function validarNumero(valor) {
   if (valor.trim().length === 0){
     return false;
